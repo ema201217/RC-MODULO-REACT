@@ -1,4 +1,7 @@
-1 - estilos  --> style.module.css y styled-component (https://styled-components.com)
-2 - props
-3 - hooks
+URL API -> https://developers.giphy.com/
 
+1 - estructura y styled-component (https://styled-components.com)
+2 - props
+3 - hooks useState y useEffect
+4 - helpers
+5 - custom hooks "useFetch"

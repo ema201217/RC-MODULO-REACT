@@ -1,3 +1,2 @@
-// Ir al campus y en el módulo 3 encontrarás el apartado ejercicios. Abrir el documento y realizar el ejercicio Hello world.
+// Crear tres botones en la vista con nombre de categoría y darle funcionalidad para que setee el value al momento de presionar alguno.
 
-// link del ejercicio --> https://docs.google.com/document/d/1yFK09NIwbUug5p0M_q1ESPXH4xaCS9sNqzYEOehxoJc/edit#heading=h.h4v4sgit8k7g
