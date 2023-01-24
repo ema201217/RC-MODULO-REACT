@@ -1,7 +1,6 @@
-URL API -> https://developers.giphy.com/
+- Crear el componente Root (Layout)
+- Construir el header y opcional el footer
+- Crear las paginas que queremos mostrar en cada link
+- Configurar React Router Dom en el index
 
-1 - estructura y styled-component (https://styled-components.com)
-2 - props
-3 - hooks useState y useEffect
-4 - helpers
-5 - custom hooks "useFetch"
+- Proyecto aparte de ACADEMY APP

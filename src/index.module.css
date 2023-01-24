@@ -1,0 +1,5 @@
+.rootContainer {
+  display: grid;
+  grid-template-rows: 1fr 2fr .5fr;
+  margin: 20px;
+}
