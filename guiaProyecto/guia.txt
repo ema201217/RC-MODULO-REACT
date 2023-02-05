@@ -1,6 +1,10 @@
-- Crear el componente Root (Layout)
-- Construir el header y opcional el footer
-- Crear las paginas que queremos mostrar en cada link
+PROJECT E-COMMERCE
+
+1° Parte CLASE 6
+- Crear los componentes Header y Footer
+- Crear el componente Layout
+- Crear las paginas que queremos mostrar en cada link (HOME, LOGIN, PRODUCTOS, REGISTER, CREAR-PRODUCTOS) header y h1 con el nombre de la pagina.
 - Configurar React Router Dom en el index
 
-- Proyecto aparte de ACADEMY APP
+
+
