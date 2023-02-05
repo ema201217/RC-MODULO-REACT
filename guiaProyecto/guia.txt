@@ -1,10 +1,6 @@
 PROJECT E-COMMERCE
 
-1° Parte CLASE 6
-- Crear los componentes Header y Footer
-- Crear el componente Layout
-- Crear las paginas que queremos mostrar en cada link (HOME, LOGIN, PRODUCTOS, REGISTER, CREAR-PRODUCTOS) header y h1 con el nombre de la pagina.
-- Configurar React Router Dom en el index
-
-
-
+2° Parte CLASE 7 o 8 (depende el avance de los alumnos)
+- Terminar las distintas vistas dejar 1 o 2 para que lo hagan los alumnos.
+- Configurar JSON Server
+- 
