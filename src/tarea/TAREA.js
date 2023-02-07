@@ -1,16 +1,6 @@
-/* 
- Usando create-react-app crear dos proyectos con los siguientes
-nombres:
-  ■ counter-app
-  ■ gif-expert-app
-
-○ En la carpeta src del proyecto solo dejar los siguientes archivos:
-  ■ index.js
-  ■ index.css (dejar vacío el contenido)
-*/
-
-
-// Opcional: TAREA -> promesas,fetch o axios y async await.
-// 1 - Crear una función asíncrona que haga una llamada a la api de Pokemon y traer un Pokemon
-// URL --> "https://pokeapi.co/api/v2/pokemon/{ID}"
-// 2 - Usar Fetch o Axios, y async await y toda los conceptos aprendidos en las clases anteriores.
+// 1 - IMPORTAR EL ARCHIVO ./src/data/movies.js
+// 2 - CREA UN ARCHIVO functions.js Y EXPORTAR DEL MISMO LA FUNCIÓN getMoviesByYear
+// 3 - LA FUNCIÓN getMoviesByYear DEBE RETORNAR UNA PROMESA QUE DURE 2 SEGUNDOS (usar setTimeout) Y RESUELVA (resolve) EL RESULTADO DE LA BÚSQUEDA.
+// 4 - VALIDAR QUE EL ARGUMENTO DE LA FUNCIÓN SEA UN NUMERO Y QUE EL NUMERO SEA MAYOR A 1000 Y MENOR A 2024. ENVIAR EL ERROR POR EL "reject".
+// 5 - SI NO EXISTEN PELÍCULAS QUE RESUELVA CON EL MENSAJE "No existen películas en ese año"
+// 6 - MOSTRAR POR CONSOLA LA RESPUESTA DE LA PROMESA.
