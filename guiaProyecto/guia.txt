@@ -1,6 +1,9 @@
 PROJECT E-COMMERCE
 
 2° Parte CLASE 7 o 8 (depende el avance de los alumnos)
+
 - Terminar las distintas vistas dejar 1 o 2 para que lo hagan los alumnos.
+|| vistas --> Login - Register - Products - Home - CreateProduct ||
+
 - Configurar JSON Server
 - 
