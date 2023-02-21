@@ -77,6 +77,14 @@ export const CreateProduct = () => {
               </Form.Group>
             </Col>
             <Col md={6}>
+              <Form.Check
+                type="switch"
+                id="switch-available"
+                label="Disponible"
+                checked={true}
+              />
+            </Col>
+            <Col md={{span:1,offset:5}}>
               <Button variant="primary" type="submit">
                 Guardar
               </Button>

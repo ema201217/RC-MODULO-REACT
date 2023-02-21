@@ -6,6 +6,9 @@ export const Register = () => {
   return (
     <Layout>
       <Row className="my-5">
+      <Col md={12} className="text-center">
+          <h1>Register</h1>
+        </Col>
         <Col md={{ span: 4, offset: 4 }}>
           <Form>
             <Form.Group className="mb-3" controlId="formBasicEmail">
