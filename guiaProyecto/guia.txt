@@ -1,11 +1,8 @@
 PROJECT E-COMMERCE
 
-2° Parte CLASE 7 o 8 (depende el avance de los alumnos)
+3° Parte CLASE 8 o 9
 
-- Terminar las distintas vistas dejar 1 o 2 para que lo hagan los alumnos.
-|| vistas --> Login - Register - Products - Home - CreateProduct ||
+- Registro de usuarios con algunas validaciones simples
+- Login de usuario con algunas validaciones simples
 
-- Configurar JSON Server
-- https://www.npmjs.com/package/json-server#getting-started
-
-- Mostrar los productos con fetch al url que provee "json server"
+- Creación de productos con algunas validaciones
