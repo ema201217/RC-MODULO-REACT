@@ -6,4 +6,6 @@ PROJECT E-COMMERCE
 || vistas --> Login - Register - Products - Home - CreateProduct ||
 
 - Configurar JSON Server
-- 
+- https://www.npmjs.com/package/json-server#getting-started
+
+- Mostrar los productos con fetch al url que provee "json server"

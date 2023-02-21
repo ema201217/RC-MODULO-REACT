@@ -1,9 +1,20 @@
+import { useEffect, useState } from "react";
 import { Col, Row } from "react-bootstrap";
 import { CardProduct } from "../components/CardProduct";
 import { Layout } from "../layouts/Layout";
 
 export const Products = () => {
-  const products = [
+  const [products, setProducts] = useState([]);
+  const getProducts = async () =>
+    await fetch("http://localhost:3000/products").then((res) => res.json());
+
+  useEffect(() => {
+    getProducts().then((data) => {
+      setProducts(data);
+    });
+  }, []);
+
+  /* const products = [
     {
       title: "Producto 1",
       description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
@@ -28,7 +39,7 @@ export const Products = () => {
       img: "https://i.blogs.es/8a371e/captura-de-pantalla-2020-11-06-a-las-3.35.58/original.png",
       price: "300.000",
     },
-  ];
+  ]; */
   return (
     <Layout>
       <Row>
@@ -40,7 +51,7 @@ export const Products = () => {
             <Col xs={6} md={4} lg={3}>
               <CardProduct product={product} />
             </Col>
-          )
+          );
         })}
       </Row>
     </Layout>
