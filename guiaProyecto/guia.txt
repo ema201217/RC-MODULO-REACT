@@ -1,8 +1,10 @@
 PROJECT E-COMMERCE
 
-3° Parte CLASE 8 o 9
+4° Parte CLASE 10
 
-- Registro de usuarios con algunas validaciones simples
-- Login de usuario con algunas validaciones simples
+- Crear el componente de SearchBar
+- Funcionalidad de búsqueda de productos
 
-- Creación de productos con algunas validaciones
+- Implementación de las rutas protegidas donde corresponda
+- Dejar de visualizar los link de login y register si ya esta el usuario logueado
+- Visualizar la creación de producto si el usuario tiene el rol administrador
