@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { Button, Col, Form, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Layout } from "../layouts/Layout";
 
 export const Register = () => {
   const [formValues, setFormValues] = useState({ email: "", password: "" });
   const [error, setError] = useState("");
+  const redirect = useNavigate()
 
   const handleChange = ({ target }) => {
     setFormValues({
@@ -14,7 +15,18 @@ export const Register = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const existEmailInDB = async (email) => {
+    const response = await fetch(
+      `http://localhost:3000/users?email=${email}`
+    );
+    const data = await response.json();
+    if (data.length && data[0].email === email) {
+      return true;
+    }
+    return false;
+  };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (!formValues.email || !formValues.password) {
@@ -22,13 +34,20 @@ export const Register = () => {
       return;
     }
 
+    if (await existEmailInDB(formValues.email)) {
+      setError("Este email ya existe en los registros");
+      return;
+    }
+
     fetch("http://localhost:3000/users", {
-      method:'POST',
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json'
+        "Content-Type": "application/json",
       },
-      body: JSON.stringify(formValues)
-    })
+      body: JSON.stringify(formValues),
+    });
+    setError("")
+    redirect('/login')
   };
 
   return (

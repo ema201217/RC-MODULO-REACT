@@ -5,7 +5,7 @@ export const CarouselHome = ({ items = [] }) => {
     <Carousel fade>
       {items.map((item) => {
         return (
-          <Carousel.Item>
+          <Carousel.Item key={item.id}>
             <img className="d-block w-100" src={item.src} alt={item.alt} />
             <Carousel.Caption>
               <h3>{item.title}</h3>

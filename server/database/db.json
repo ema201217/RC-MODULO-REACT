@@ -1,67 +1,68 @@
 {
   "products": [
     {
-      "name": "Lavadora Samsung",
+      "id": 1,
+      "title": "Lavadora Samsung",
       "image": "https://http2.mlstatic.com/D_NQ_NP_913629-MLA44835817396_022021-O.webp",
-      "mark": "Samsung",
       "price": 599.99,
       "discount": 10,
-      "description": "Lavadora de carga frontal con capacidad para 7kg de ropa. Tiene 10 programas de lavado y cuenta con función de lavado rápido de 15 minutos.",
-      "available": true
+      "description": "Lavadora de carga frontal con capacidad para 7kg de ropa. Tiene 10 programas de lavado y cuenta con función de lavado rápido de 15 minutos."
     },
     {
-      "name": "Refrigerador LG",
+      "id": 2,
+      "title": "Refrigerador LG",
       "image": "https://http2.mlstatic.com/D_NQ_NP_868381-MLA48848264199_012022-O.webp",
-      "mark": "LG",
       "price": 899.99,
       "discount": 20,
-      "description": "Refrigerador con capacidad de 25 pies cúbicos. Cuenta con sistema de enfriamiento inteligente y fabricador de hielo automático.",
-      "available": true
+      "description": "Refrigerador con capacidad de 25 pies cúbicos. Cuenta con sistema de enfriamiento inteligente y fabricador de hielo automático."
     },
     {
-      "name": "Horno de Microondas Panasonic",
+      "id": 3,
+      "title": "Horno de Microondas Panasonic",
       "image": "https://http2.mlstatic.com/D_NQ_NP_937518-MLA52417188180_112022-O.webp",
-      "mark": "Panasonic",
       "price": 149.99,
       "discount": 0,
-      "description": "Horno de microondas con capacidad de 1.1 pies cúbicos. Cuenta con 10 niveles de potencia y 6 programas de cocción automática.",
-      "available": true
+      "description": "Horno de microondas con capacidad de 1.1 pies cúbicos. Cuenta con 10 niveles de potencia y 6 programas de cocción automática."
     },
     {
-      "name": "Aspiradora Dyson",
+      "id": 4,
+      "title": "Aspiradora Dyson",
       "image": "https://http2.mlstatic.com/D_NQ_NP_795442-MLA32620943844_102019-O.webp",
-      "mark": "Dyson",
       "price": 399.99,
       "discount": 40,
-      "description": "Aspiradora de alta potencia y eficiencia energética. Cuenta con sistema de filtro HEPA para retener partículas de polvo y alergenos.",
-      "available": false
+      "description": "Aspiradora de alta potencia y eficiencia energética. Cuenta con sistema de filtro HEPA para retener partículas de polvo y alergenos."
     },
     {
-      "name": "Lavavajillas Whirlpool",
+      "id": 5,
+      "title": "Lavavajillas Whirlpool",
       "image": "https://http2.mlstatic.com/D_NQ_NP_669180-MLA40241936834_122019-O.webp",
-      "mark": "Whirlpool",
       "price": 699.99,
       "discount": 20,
-      "description": "Lavavajillas con capacidad para 12 cubiertos. Cuenta con función de media carga para ahorrar agua y energía.",
-      "available": true
+      "description": "Lavavajillas con capacidad para 12 cubiertos. Cuenta con función de media carga para ahorrar agua y energía."
     },
     {
-      "name": "Secadora LG",
+      "id": 6,
+      "title": "Secadora LG",
       "image": "https://http2.mlstatic.com/D_NQ_NP_701514-MLA51195997344_082022-O.webp",
-      "mark": "LG",
       "price": 799.99,
       "discount": 10,
-      "description": "Secadora con capacidad de 7kg. Cuenta con tecnología de secado por sensor que detecta la humedad y ajusta el tiempo de secado.",
-      "available": false
+      "description": "Secadora con capacidad de 7kg. Cuenta con tecnología de secado por sensor que detecta la humedad y ajusta el tiempo de secado."
     },
     {
-      "name": "Cafetera Nespresso",
+      "id": 7,
+      "title": "Cafetera Nespresso",
       "image": "https://http2.mlstatic.com/D_NQ_NP_967076-MLA42314632441_062020-O.webp",
-      "mark": "Nespresso",
       "price": 199.99,
       "discount": 0,
-      "description": "Cafetera automática que prepara café en cápsulas. Cuenta con sistema de calentamiento rápido y bandeja para tazas ajustable.",
-      "available": true
+      "description": "Cafetera automática que prepara café en cápsulas. Cuenta con sistema de calentamiento rápido y bandeja para tazas ajustable."
+    },
+    {
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_955883-MLA42723584033_072020-F.webp",
+      "title": "Auricular In Ear Pro Inalambrico Bluetooth",
+      "price": "5298",
+      "discount": "10",
+      "description": "Auriculares Bluetooth con micrófono pantalla Digital táctil inalámbrico estéreo Bluetooth 5,0 caja de carga Mini auriculares deportivos invisibles Micrófono Digital Pro TWS 3500 mAh",
+      "id": 8
     }
   ],
   "users": [
@@ -69,6 +70,16 @@
       "email": "admin@admin.com",
       "password": "123123",
       "id": 1
+    },
+    {
+      "email": "ema201217@gmail.com",
+      "password": "12312322323",
+      "id": 2
+    },
+    {
+      "email": "ema201217123@gmail.com",
+      "password": "1234567890",
+      "id": 3
     }
   ]
 }

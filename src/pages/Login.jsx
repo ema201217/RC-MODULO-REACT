@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { Button, Col, Form, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Layout } from "../layouts/Layout";
 
 export const Login = () => {
   const [formValues, setFormValues] = useState({ email: "", password: "" });
   const [error, setError] = useState("");
+  const redirect = useNavigate();
 
   const handleChange = ({ target }) => {
     setFormValues({
@@ -38,8 +39,9 @@ export const Login = () => {
         }
 
         console.log("Usuario ingresado con éxito");
+        redirect("/create-product");
+        setError("");
       });
-    setError("");
   };
   return (
     <Layout>
